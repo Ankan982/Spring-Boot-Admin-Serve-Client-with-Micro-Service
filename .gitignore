@@ -1,0 +1,29 @@
+# ==========================================
+# Root Level Ignores
+# ==========================================
+.metadata/
+
+# ==========================================
+# Java / Maven Ignores (Applies to all sub-services)
+# ==========================================
+**/target/
+**/*.class
+
+# Maven wrapper execution files (optional, keep if you want team to use ./mvnw)
+**/.mvn/
+**/mvnw
+**/mvnw.cmd
+
+# ==========================================
+# Eclipse / STS / IDE Ignores
+# ==========================================
+**/.settings/
+**/.project
+**/.classpath
+**/.factorypath
+
+# ==========================================
+# Log Files
+# ==========================================
+**/logs/
+**/*.log
